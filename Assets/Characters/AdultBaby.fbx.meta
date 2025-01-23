@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3ea70368bee02384a9a3a1f7772ae6f3
+guid: 2a11b862415f6464887e89cc5b3bdc56
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,82 +8,42 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: eyebrow009
-    second: {fileID: 2100000, guid: f414d01e9b63a524fa847b46e3391ad7, type: 2}
+    second: {fileID: 2100000, guid: 26840057b874c514dae91c6a35e6080b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: eyegreen
-    second: {fileID: 2100000, guid: e5c2c3b9ed0dff44c9513cab863b31e4, type: 2}
+      name: low-poly
+    second: {fileID: 2100000, guid: f10d3fadef062d5419203938899aee02, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: male_elegantsuit01
-    second: {fileID: 2100000, guid: b993d5e6618cdd54e873dd0955f61319, type: 2}
+    second: {fileID: 2100000, guid: 4718974a0fde72741969d197e8c5eb1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: male_muscle_13290
+    second: {fileID: 2100000, guid: 55bd5d0c81fc55249b10be5b8c4df89d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: shoes04
-    second: {fileID: 2100000, guid: 8e90330fc4d71674aad3bcc7c8fd1b35, type: 2}
+    second: {fileID: 2100000, guid: 2118907d9b63a8d48916089c28418edb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: short04
-    second: {fileID: 2100000, guid: 10b0cf1a4c7b35a4b8a03817e4266fbc, type: 2}
+    second: {fileID: 2100000, guid: b30991951058ef740bfe048c7aff6f0a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: teethMaterial
-    second: {fileID: 2100000, guid: 77b342d64c935fc4f84e074b23fbb09b, type: 2}
+      name: teeth_base
+    second: {fileID: 2100000, guid: eb7dc8cc0a7f88143bf402ad9febc167, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: tongue01Material
-    second: {fileID: 2100000, guid: fe2e2f56873705846a5e1a737e095c73, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: young_caucasian_male_detailed
-    second: {fileID: 2100000, guid: 4aefe2b64c7892a4cbd9c8c8aed936ed, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: eyebrow009
-    second: {fileID: 2800000, guid: 8464f35f0e73afb4298c315be70dfc88, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: green_eye
-    second: {fileID: 2800000, guid: e7daf5d173c8a5e49841392c56318a23, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: male_elegantsuit01_diffuse
-    second: {fileID: 2800000, guid: 134f35e61c999ce44a26306a557a240c, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: shoes04_diffuse
-    second: {fileID: 2800000, guid: 3724c800c560ad04a99b691cdd770234, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: short04_diffuse
-    second: {fileID: 2800000, guid: f375325ee417ca744a08884290d3fe20, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: teeth
-    second: {fileID: 2800000, guid: 0ff70e1ec8b88624b83992bdfd4cbf32, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: tongue01_diffuse
-    second: {fileID: 2800000, guid: 79f2a65ae2e77b14387ef0f70aa2ab2e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: young_caucasian_male_special_suit
-    second: {fileID: 2800000, guid: 35947098805dc9d4090ebbcb1bc77210, type: 3}
+      name: tongue01
+    second: {fileID: 2100000, guid: be0c70bbba2d01040ac984564315bce0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -160,52 +120,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton:
-    - name: AdultBaby(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: adultbaby-eyebrow009
-      parentName: AdultBaby(Clone)
-      position: {x: -0, y: 0.016809382, z: -0.0049271444}
-      rotation: {x: 0.0012378909, y: 0, z: -0, w: 0.9999992}
-      scale: {x: 1, y: 1, z: 1}
-    - name: adultbaby-low_poly
-      parentName: AdultBaby(Clone)
-      position: {x: -0, y: 0.016809382, z: -0.0049271444}
-      rotation: {x: 0.0012378909, y: 0, z: -0, w: 0.9999992}
-      scale: {x: 1, y: 1, z: 1}
-    - name: adultbaby-male_elegantsuit01
-      parentName: AdultBaby(Clone)
-      position: {x: -0, y: 0.016809382, z: -0.0049271444}
-      rotation: {x: 0.0012378909, y: 0, z: -0, w: 0.9999992}
-      scale: {x: 1, y: 1, z: 1}
-    - name: adultbaby-male_muscle_13290
-      parentName: AdultBaby(Clone)
-      position: {x: -0, y: 0.016809382, z: -0.0049271444}
-      rotation: {x: 0.0012378909, y: 0, z: -0, w: 0.9999992}
-      scale: {x: 1, y: 1, z: 1}
-    - name: adultbaby-shoes04
-      parentName: AdultBaby(Clone)
-      position: {x: -0, y: 0.016809382, z: -0.0049271444}
-      rotation: {x: 0.0012378909, y: 0, z: -0, w: 0.9999992}
-      scale: {x: 1, y: 1, z: 1}
-    - name: adultbaby-short04
-      parentName: AdultBaby(Clone)
-      position: {x: -0, y: 0.016809382, z: -0.0049271444}
-      rotation: {x: 0.0012378909, y: 0, z: -0, w: 0.9999992}
-      scale: {x: 1, y: 1, z: 1}
-    - name: adultbaby-teeth_base
-      parentName: AdultBaby(Clone)
-      position: {x: -0, y: 0.016809382, z: -0.0049271444}
-      rotation: {x: 0.0012378909, y: 0, z: -0, w: 0.9999992}
-      scale: {x: 1, y: 1, z: 1}
-    - name: adultbaby-tongue01
-      parentName: AdultBaby(Clone)
-      position: {x: -0, y: 0.016809382, z: -0.0049271444}
-      rotation: {x: 0.0012378909, y: 0, z: -0, w: 0.9999992}
-      scale: {x: 1, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
