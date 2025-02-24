@@ -1,6 +1,7 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+
 
 public class PlayerMove : MonoBehaviour
 {
@@ -8,32 +9,34 @@ public class PlayerMove : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 5;
-    public float turnSmoothTime = 0.1f; //2
-    float turnSmoothVelocity; //2
+
+    public float turnSmoothTime = 0.1f; //3
+
+    float turnSmoothVelocity; //3
 
     public Transform cam;
 
     void Update()
     {
 
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
 
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
         if (direction.magnitude >= 0.1f)
         {
-            float targetAngle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg + cam.eulerAngles.y;
 
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);  //2
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y; //2
+
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime); //3
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
 
-            transform.rotation = Quaternion.Euler(0f,angle,0f);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f); // 2
 
-            controller.Move(moveDir.normalized * speed*Time.deltaTime);
+            controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
 
     }
-    //prueba
 }
