@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "proy_metaverse.sln"
+    "dotnet.defaultSolution": "missuri-project.sln"
 }
