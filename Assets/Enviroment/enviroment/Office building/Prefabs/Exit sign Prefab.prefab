@@ -42,7 +42,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4200034829976762}
   - component: {fileID: 108084276724162674}
+<<<<<<< HEAD
   - component: {fileID: 8399608942479895752}
+=======
+  - component: {fileID: 4453154497571064119}
+>>>>>>> 1004300f59ab2e47476f558baebdfd1b604a5f3d
   m_Layer: 0
   m_Name: Light
   m_TagString: Untagged
@@ -127,7 +131,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+<<<<<<< HEAD
 --- !u!114 &8399608942479895752
+=======
+--- !u!114 &4453154497571064119
+>>>>>>> 1004300f59ab2e47476f558baebdfd1b604a5f3d
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
